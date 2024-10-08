@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="font-family: 'Afacad Flux';">
+    <div id="main" class="transition-all">
+        <div id="nav" class="fixed flex justify-between w-full h-20 text-white sm:h-15 backdrop-blur-xl">
+            <div id="left" class="flex h-10 gap-3 p-4 w-50">
+                <img class="object-cover w-7 h-fit" src="https://sheryians.com/Sheryians_Logo_wFKd9VClG.png">
+                <div id="view1" class="mt-1 ">
+                    <p style="font-family: 'Neue Machina';" class="h-4 text-sm leading-3 text-white">Sheryians Coding
+                    </p>
+                    <p style="font-family: 'Neue Machina';" class="h-4 text-sm text-white">School</p>
+                </div>
+            </div>
+            <div id="right" class="items-center hidden gap-6 px-5 sm:flex ">
+                <p style="font-family: 'Neue Machina';" class="text-sm transition-all hover:text-zinc-400">Home</p>
+                <p style="font-family: 'Neue Machina';" class="text-sm transition-all hover:text-zinc-400">Courses</p>
+                <p style="font-family: 'Neue Machina';"
+                    class="px-3 py-1 text-sm text-black transition-all rounded-lg bg-emerald-500 hover:bg-emerald-400">
+                    Sign In</p>
+            </div>
+        </div>
+
+
+        <div id="hero" class="z-50 flex flex-col items-center justify-center w-full p-20 py-40 text-center text-white">
+            <div id="hero-text" class="flex flex-col items-center justify-center w-full ">
+                <p style="font-family: 'Neue Machina';" class="w-full text-5xl h-fit sm:text-7xl sm:w-2/5">
+                    We only <span class="text-emerald-500">teach</span> what we are really really <span
+                        class="italic">good</span>
+                    at.</p>
+            </div>
+
+            <div id="herp-btn" class="mt-10 sm:mt-28">
+                <button type="button" class="px-5 py-2 rounded-lg bg-emerald-500 h-fit w-fit">
+                    <p style="font-family: 'Neue Machina';" class="text-lg">Check Courses-Make an Impact</p>
+                </button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
